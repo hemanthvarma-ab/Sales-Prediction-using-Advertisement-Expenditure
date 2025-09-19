@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load trained model
-model = joblib.load("/content/sales_model.pkl")
+model = joblib.load("sales_model.pkl")
 
 st.title("📊 Sales Prediction App")
 st.write("Predict product sales based on advertising expenditure.")
